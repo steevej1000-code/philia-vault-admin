@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-philia-bg: #0A0A0A;
+  --color-philia-card: #141414;
+  --color-philia-border: #262626;
+  --color-philia-accent: #39FF14;
+  --color-philia-accent-hover: #32E612;
+  --color-philia-muted: #A3A3A3;
+}
+
+body {
+  @apply bg-philia-bg text-white font-sans;
+  margin: 0;
+  padding: 0;
+}
